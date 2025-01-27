@@ -44,6 +44,7 @@ class ZathurarcTrie(Trie):
 
                 def convert(x):
                     return x == "true"
+
             else:
 
                 def convert(x):
