@@ -79,7 +79,7 @@ vim.api.nvim_create_autocmd({ "BufEnter" }, {
 ```toml
 [[language]]
 name = "zathurarc"
-language-servers = [ "zathura-language-server",]
+language-servers = ["zathura-language-server"]
 
 [language_server.zathura-language-server]
 command = "zathura-language-server"
@@ -93,7 +93,7 @@ command = "zathura-language-server"
 
 ```toml
 [language_server.zathura-language-server]
-filetypes = [ "zathurarc",]
+filetypes = ["zathurarc"]
 command = "zathura-language-server"
 ```
 
